@@ -1,0 +1,10 @@
+.recipe-container{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ingridiance-procedure-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}

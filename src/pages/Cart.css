@@ -1,0 +1,10 @@
+.cart-contents{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 2rem;
+}
+.cart-container{
+    display: flex;
+    justify-content: space-between;
+}
