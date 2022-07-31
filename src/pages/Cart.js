@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import {useState, useRef } from 'react';
 import './Cart.css'
+import p1 from '../images/p1.png'
+import p2 from '../images/p2.png'
+import p3 from '../images/p3.png'
 
 export default function Cart(){
     const[add, setAdd] = useState("");
@@ -14,7 +17,7 @@ export default function Cart(){
             <div className="cart-contents">
             <CardGroup>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p1} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
@@ -24,7 +27,7 @@ export default function Cart(){
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p2} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
@@ -34,7 +37,7 @@ export default function Cart(){
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p3} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
@@ -44,33 +47,33 @@ export default function Cart(){
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p1} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
                         A Quic grab and go meal made up of chick leg. Grab one as a snack any time.
                     </Card.Text>
-                    <Badge bg="primary">9</Badge>
+                    <Badge bg="primary">4</Badge>
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p2} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
                         A Quic grab and go meal made up of chick leg. Grab one as a snack any time.
                     </Card.Text>
-                    <Badge bg="primary">9</Badge>
+                    <Badge bg="primary">2</Badge>
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="../p1.webp" />
+                <Card.Img variant="top" src={p3} />
                 <Card.Body>
                     <Card.Title>Rost Chicken's Leg</Card.Title>
                     <Card.Text>
                         A Quic grab and go meal made up of chick leg. Grab one as a snack any time.
                     </Card.Text>
-                    <Badge bg="primary">9</Badge>
+                    <Badge bg="primary">5</Badge>
                 </Card.Body>
             </Card>
             </CardGroup>
@@ -103,7 +106,7 @@ export default function Cart(){
                                 </div>
                             </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg mb-4 w-100">Save</button>
+                            <button type="submit" class="btn btn-dark btn-lg mb-4 w-100">Save</button>
                             <div class="text-center">
                             </div>
                         </form>
@@ -111,18 +114,18 @@ export default function Cart(){
                 </div>
                 <div>
                     <div className="m-4 p-4">
-                    <h2>Order Review</h2><br/>
+                    <h2 style={{color:"black"}}>Order Review</h2><br/>
                     <ul>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
-                        <li><h3>Rosterd Chicken's Leg x9</h3></li>
+                        <li><h4 /*style={{color:"black"}}*/>Rosterd Chicken's Leg x9</h4></li>
+                        <li><h4>Rosterd Chicken's Leg x9</h4></li>
+                        <li><h4>Rosterd Chicken's Leg x9</h4></li>
+                        <li><h4>Rosterd Chicken's Leg x4</h4></li>
+                        <li><h4>Rosterd Chicken's Leg x2</h4></li>
+                        <li><h4>Rosterd Chicken's Leg x5</h4></li>
                     </ul>
                     </div>
                     <div className="m-4 p-4">
-                        <button type="submit" class="btn btn-primary btn-lg mb-4 w-100">PLACE ORDER</button>
+                        <button type="submit" class="btn btn-dark btn-lg mb-4 w-100">PLACE ORDER</button>
                     </div> 
                 </div>
             </div>

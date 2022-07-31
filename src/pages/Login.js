@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {useState} from 'react';
 import { Link } from 'react-router-dom';
+import './Login.css'
 
 export default function Login() {
     const[userID, setUserID] = useState("");
@@ -16,9 +17,10 @@ export default function Login() {
     }
 
     return(
-        <div>
+        <div className='maincontainer'>
+            <h1 style={{textAlign:"center"}}>Sign In</h1>
             <section class="w-100 p-4 d-flex justify-content-center pb-4">
-                <div class="bg-white border rounded-5" style={{backgroundImage:"url('../bg.jpg')",color: "white"}}>
+                <div className='logincontainer bg-white border rounded-5'>
                     <section class="w-100 p-4 d-flex justify-content-center pb-4"> 
                         <form onSubmit={handelSubmit}>
                             <div class="form-outline mb-4">
@@ -37,7 +39,7 @@ export default function Login() {
                                 </div>
                             </div>
                             <div class="col">
-                                <a href="" style={{textDecoration:"none"}}>Forgot password?</a>
+                                <a href="" style={{textDecoration:"none", color:"black"}}>Forgot password?</a>
                             </div>
                             </div>
                             <button type="submit" class="btn btn-dark btn-lg mb-4 w-100">Sign in</button>

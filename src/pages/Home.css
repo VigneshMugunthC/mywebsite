@@ -1,0 +1,13 @@
+.maincontainer{
+    padding: 4rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.maincarousel{
+    margin: 0.5rem;
+    border-collapse: separate; 
+    border-radius: 20px;
+}
+.carouselitem{
+    height: 400px;
+}

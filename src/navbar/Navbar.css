@@ -17,6 +17,9 @@
 }
 .navbar-logo:hover{
     padding-left: 4rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
     background-image: url("/public/p3.jpg");
     border-radius: 4px;
     color: #fff;
@@ -92,8 +95,9 @@
         display: table;
     }
     .nav-links:hover{
-        background-color:  rgb(169, 94, 9);
-        border-radius: 0;
+        background-image: url("/public/p2.webp");
+        border-radius: 20px;
+        padding: 4rem;
     }
     .navbar-logo{
         top: 0;

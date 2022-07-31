@@ -5,6 +5,10 @@
     margin-top: 2rem;
 }
 .cart-container{
+    border-radius: 20px;
+    background-image: url("/src/images/bg8.jpg");
+    color: white;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }

@@ -32,9 +32,10 @@ export default function Register() {
         navigate('/login');
     }
     return(
-        <div>
+        <div className='maincontainer'>
+            <h1 style={{textAlign:"center"}}>Register</h1>
             <section class="w-100 p-4 d-flex justify-content-center pb-4">
-                <div class="bg-white border rounded-5" style={{backgroundImage:"url('../bg.jpg')",color: "black"}}>
+                <div className="registercontainer bg-white border rounded-5">
                     <section class="w-100 p-4 d-flex justify-content-center pb-4"> 
                         <form onSubmit={handelSubmit}>
                             <div class="form-outline mb-4">
@@ -67,10 +68,10 @@ export default function Register() {
                                 }}/>
                                 <label class="form-check-label" for="l_status"> Married </label>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg m-1 mb-4 w-45">Register</button>
+                            <button type="submit" class="btn btn-dark btn-lg m-1 mb-4 w-45">Register</button>
                             <div onClick={handelReset} class="btn btn-light btn-lg m-1 mb-4 w-45">Clear</div>
                             <div class="text-center">
-                            <p>Already Registered? <Link to="/login">Sign In</Link></p>
+                            <p style={{color:"brown"}}>Already Registered? <Link to="/login" style={{color:"white"}}>Sign In</Link></p>
                             </div>
                         </form>
                     </section>

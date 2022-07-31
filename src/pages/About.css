@@ -1,0 +1,26 @@
+
+.aboutcontainer1{
+    background-image: url("/src/images/bg8.jpg");
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.aboutcontainer1contents{
+    margin-left: 5rem;
+}
+.map{
+    border-radius: 20px;
+    border-color: black;
+}
+.aboutcontainer2{
+    background-image: url("/src/images/bg9.jpg");
+    border-radius: 20px;
+    padding: 1rem;
+}
+.aboutcontainer2contents{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
