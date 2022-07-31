@@ -34,8 +34,9 @@ class Navbar extends Component{
                         )
                     })}
                 </ul>
-                <Button onClick={this.handelcart} variant='dark'>Cart</Button>
-                {/*<Link to='/cart' className='btn btn-dark'>Cart</Link>*/}
+                <Link to='/cart' className='btn btn-dark'>Cart</Link>
+                {/*<Link to='/cart' className='btn btn-dark'>Cart</Link>
+                <Button onClick={this.handelcart} variant='dark'>Cart</Button>*/}
             </nav>
         );
     }
